@@ -50,7 +50,7 @@ calc/calculator/calculator.go:22.34,24.3 1 20
 
 ```
 
-### Ginkgo
+### Ginkgo 사용
 
 ```
 ### generate calculator_suite_test.go 
