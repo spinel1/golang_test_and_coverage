@@ -49,3 +49,14 @@ calc/calculator/calculator.go:25.2,25.12 1 1
 calc/calculator/calculator.go:22.34,24.3 1 20
 
 ```
+
+### Ginkgo
+
+```
+### generate calculator_suite_test.go 
+$ ginkgo bootstrap
+
+### generate calculator_test.go 
+$ ginkgo generate calculator
+
+```
