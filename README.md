@@ -33,3 +33,19 @@ Ginkgo ran 1 suite in 540.784032ms
 Test Suite Passed
 
 ```
+
+### Coverprofile format
+
+line.column,line.column numberOfStatements count
+
+```
+mode: atomic
+calc/calculator/calculator.go:3.25,5.2 1 1
+calc/calculator/calculator.go:7.26,9.2 1 2
+calc/calculator/calculator.go:11.27,13.2 1 2
+calc/calculator/calculator.go:15.29,17.2 1 1
+calc/calculator/calculator.go:19.24,22.34 2 1
+calc/calculator/calculator.go:25.2,25.12 1 1
+calc/calculator/calculator.go:22.34,24.3 1 20
+
+```
